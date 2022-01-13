@@ -18,7 +18,7 @@ function IsPc() {
 const initMap = (callback) => {
   return new Promise(async (resolve, reject) => {
     const AMap = await AMapLoader.load({
-      key: "b7bf0c99ad513026ec46853e03d2d676", // 申请好的Web端开发者Key，首次调用 load 时必填
+      key: "--", // 申请好的Web端开发者Key，首次调用 load 时必填
       version: "2.0", // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
       plugins: ["AMap.Geolocation", "AMap.CitySearch"], // 需要使用的的插件列表，如比例尺'AMap.Scale'等
     });
